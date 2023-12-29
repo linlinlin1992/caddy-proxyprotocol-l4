@@ -9,7 +9,7 @@ on:
     - cron: '51 2 * * 3'
 
 jobs:
-  docker:
+  docker: 
     runs-on: ubuntu-latest
     steps:
       -
