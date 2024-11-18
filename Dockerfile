@@ -9,7 +9,7 @@ RUN xcaddy build \
     --with github.com/caddy-dns/cloudflare \
     --with github.com/mholt/caddy-events-exec \
     --with github.com/WeidiDeng/caddy-cloudflare-ip \
-    --with github.com/mholt/caddy-webdav \
+    --with github.com/mholt/caddy-webdav 
     #--with github.com/jsonc-adapter
 
 FROM caddy:latest
